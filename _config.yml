@@ -7,3 +7,9 @@ url: https://oumae-mk.github.io/docs
 nav_external_links:
   - title: "Oumae в Telegram"
     url: https://t.me/+bHgaMW-ajFhkY2Fi
+
+callouts:
+  warning:
+    title: NB
+    color: gray
+    opacity: 0.8
