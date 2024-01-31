@@ -4,5 +4,6 @@ theme: just-the-docs
 
 url: https://oumae-mk.github.io/docs
 
-aux_links:
-  "Oumae в Telegram": https://t.me/+bHgaMW-ajFhkY2Fi
+nav_external_links:
+  - title: "Oumae в Telegram"
+    url: https://t.me/+bHgaMW-ajFhkY2Fi
