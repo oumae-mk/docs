@@ -11,4 +11,4 @@ nav_external_links:
 callouts:
   warning:
     title: NB
-    color: grey-lt-300
+    color: red
