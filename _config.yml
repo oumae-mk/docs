@@ -12,3 +12,5 @@ callouts:
   warning:
     title: NB
     color: red
+
+color_scheme: l

@@ -1,0 +1,9 @@
+@import "./color_schemes/light";
+
+@font-face {
+    font-family: 'Iosevka Custom Regular';
+    src: url(/assets/iosevka-custom-regular.woff2);
+    unicode-range: U+000-5FF;
+}
+
+$body-font-family: 'Iosevka Custom Regular', $body-font-family;
