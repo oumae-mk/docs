@@ -4,5 +4,5 @@ theme: just-the-docs
 
 url: https://oumae-mk.github.io/docs
 
-#aux_links:
-#  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+aux_links:
+  "Oumae в Telegram": https://t.me/+bHgaMW-ajFhkY2Fi
