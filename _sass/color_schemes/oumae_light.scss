@@ -17,6 +17,10 @@ h1, h2, h3, h4, h4 {
   font-family: 'Iosevka Custom Regular', $body-font-family;
 }
 
+blockquote {
+  box-shadow: none !important;
+}
+
 $content-line-height: 1.65;
 
 $font-factor: 1.1;
