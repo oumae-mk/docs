@@ -1,17 +1,19 @@
 @import "./color_schemes/light";
 
+$link-color: $purple-000;
+
 @font-face {
     font-family: 'Iosevka Custom Regular';
-    src: url(/docs/assets/fonts/iosevka-custom-regular.woff2);
+    src: url(/assets/fonts/iosevka-custom-regular.woff2);
     unicode-range: U+000-5FF;
 }
 
-// @font-face {
-//     font-family: 'Noto Sans Display';
-//     src: url(/docs/assets/fonts/NotoSansDisplay-Regular.ttf) format('truetype');
-// }
+@font-face {
+    font-family: 'Noto Sans Display';
+    src: url(/assets/fonts/NotoSans-Regular.ttf) format('truetype');
+}
 
-//$body-font-family: 'Noto Sans Display', $body-font-family;
+$body-font-family: 'Noto Sans Display', $body-font-family;
 
 h1, h2, h3, h4, h4 {
   font-family: 'Iosevka Custom Regular', $body-font-family;
@@ -23,7 +25,54 @@ blockquote {
   border-radius: 6px !important;
 }
 
-$content-line-height: 1.65;
+blockquote.warning {
+  color: $grey-dk-200 !important;
+}
+
+blockquote.question {
+  background-color: $grey-lt-000 !important;
+}
+
+blockquote.question > p:first-child {
+  font-weight: normal !important;
+  text-transform: none !important;
+  font-size: inherit !important;
+  padding-bottom: 0.5rem !important;
+  color: $grey-dk-250 !important;
+}
+
+blockquote.question > p:first-child::before {
+  content: 'Q: ';
+}
+
+em.k {
+  font-style: normal;
+  background-color: $grey-lt-100;
+  // text-shadow: 1px 1px 1px white;
+  border-radius: 4px;
+  padding: 2px 5px;
+  margin: -2px 0;
+  // box-shadow: 0 2px 0 #dfdfdf;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  // border-top: solid 1px #ddd;
+  // border-left: solid 1px #ddd;
+  // border-right: solid 1px #ddd;
+  border-bottom: solid 2px #d0d0d0;
+  // font-family: "SFMono-Regular", menlo, consolas, monospace;
+  font-size: 0.85rem;
+  font-family: "Iosevka Custom Regular";
+}
+
+// blockquote::before, blockquote p {
+//   display: inline-block !important;
+// }
+
+.pagination {
+  height: 1rem;
+}
+
+$body-heading-line-height: 1.8;
+$content-line-height: 1.7;
 
 $font-factor: 1.1;
 

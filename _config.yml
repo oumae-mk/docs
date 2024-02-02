@@ -9,8 +9,11 @@ nav_external_links:
     url: https://t.me/+bHgaMW-ajFhkY2Fi
 
 callouts:
+  note:
+    title: ""
+    color: grey-lt
   warning:
-    title: NB
-    color: red
+    title: ""
+    color: grey-dk
 
 color_scheme: oumae_light
