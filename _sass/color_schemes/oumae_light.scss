@@ -47,6 +47,7 @@ blockquote.warning {
 
 blockquote.question {
   background-color: $grey-lt-000 !important;
+  margin-bottom: 1em;
 }
 
 blockquote.question > p:first-child {
@@ -62,12 +63,16 @@ blockquote.question > p:first-child::before {
 }
 
 em.k {
+  display: inline-block;
+  height: 1.75em;
   font-style: normal;
   background-color: $grey-lt-100;
   // text-shadow: 1px 1px 1px white;
   border-radius: 4px;
-  padding: 0.2em 0.2em;
-  margin: -0.2em 0.2em;
+  padding: 0 0.35em;
+  margin: 0 0.2em;
+  min-width: 1.75em;
+  text-align: center;
   // box-shadow: 0 2px 0 #dfdfdf;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   // border-top: solid 1px #ddd;
