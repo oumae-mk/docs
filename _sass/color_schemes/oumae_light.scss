@@ -19,6 +19,18 @@ h1, h2, h3, h4, h4 {
   font-family: 'Iosevka Custom Regular', $body-font-family;
 }
 
+:not(pre, figure) > code {
+  border: none !important;
+  padding: 0.2em 0.5em !important;
+  margin: -0.2em 0.2em !important;
+  background-color: $grey-lt-100 !important;
+  border-radius: 0 !important;
+}
+
+code {
+  line-height: 1 !important;
+}
+
 blockquote {
   box-shadow: none !important;
   border-left: 0 !important;
@@ -50,8 +62,8 @@ em.k {
   background-color: $grey-lt-100;
   // text-shadow: 1px 1px 1px white;
   border-radius: 4px;
-  padding: 2px 5px;
-  margin: -2px 0;
+  padding: 0.2em 0.2em;
+  margin: -0.2em 0.2em;
   // box-shadow: 0 2px 0 #dfdfdf;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   // border-top: solid 1px #ddd;
@@ -61,6 +73,11 @@ em.k {
   // font-family: "SFMono-Regular", menlo, consolas, monospace;
   font-size: 0.85rem;
   font-family: "Iosevka Custom Regular";
+}
+
+code {
+  font-size: .9rem !important;
+  font-family: "Iosevka Custom Regular" !important;
 }
 
 // blockquote::before, blockquote p {
