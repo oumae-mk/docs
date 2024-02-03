@@ -4,13 +4,13 @@ $link-color: $blue-000;
 
 @font-face {
     font-family: 'Iosevka Custom Regular';
-    src: url(/assets/fonts/iosevka-custom-regular.woff2);
+    src: url(/docs/assets/fonts/iosevka-custom-regular.woff2);
     unicode-range: U+000-5FF;
 }
 
 @font-face {
     font-family: 'Noto Sans Display';
-    src: url(/assets/fonts/NotoSans-Regular.ttf) format('truetype');
+    src: url(/docs/assets/fonts/NotoSans-Regular.ttf) format('truetype');
 }
 
 $body-font-family: 'Noto Sans Display', $body-font-family;
