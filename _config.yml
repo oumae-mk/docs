@@ -7,6 +7,15 @@ url: https://oumae-mk.github.io/docs
 nav_external_links:
   - title: "Oumae в Telegram"
     url: https://t.me/+bHgaMW-ajFhkY2Fi
+  - title: "Oumae на Avito"
+    url: https://www.avito.ru/user/435f92ce15187adc2ce631b8a6fe2fe1/profile
+
+# aux_links:
+#   "Oumae в Telegram":
+#     - "https://t.me/+bHgaMW-ajFhkY2Fi"
+
+aux_links_new_tab: true
+nav_external_links_new_tab: true
 
 callouts:
   note:

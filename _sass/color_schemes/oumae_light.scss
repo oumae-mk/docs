@@ -37,6 +37,10 @@ blockquote {
   border-radius: 6px !important;
 }
 
+.nav-list li.nav-list-item.external:first-child {
+  padding-top: 1em;
+}
+
 blockquote.warning {
   color: $grey-dk-200 !important;
 }
