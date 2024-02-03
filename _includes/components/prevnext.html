@@ -28,9 +28,9 @@
 
 <div class="pagination">
 {% if prev_page %}
-    <a href="{{ prev_page.url }}">← {{ prev_page.title }}</a>
+    <a href="/docs/{{ prev_page.url }}">← {{ prev_page.title }}</a>
 {% endif %}
 {% if next_page %}
-    <a style='float: right;' href="{{ next_page.url }}">{{ next_page.title }} →</a>
+    <a style='float: right;' href="/docs/{{ next_page.url }}">{{ next_page.title }} →</a>
 {% endif %}
 </div>
