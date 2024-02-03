@@ -1,4 +1,4 @@
-title: oumae docs
+title: Oumae docs
 description: Официальная документация oumae
 theme: just-the-docs
 
@@ -31,7 +31,7 @@ back_to_top: true
 back_to_top_text: "Наверх ↑"
 
 gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Редактировать эту страницу на GitHub."
+gh_edit_link_text: "Редактировать эту страницу на GitHub"
 gh_edit_repository: "https://github.com/oumae-mk/docs" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree"
