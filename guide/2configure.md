@@ -15,7 +15,9 @@ parent: Руководство
 Если QMK -- прошивка, то Via -- GUI для быстрой настройки клавиш.
 
 1. Запустите браузер на базе Chromium (Google Chrome, Brave, etc).
+
 2. Перейдите по ссылке [usevia.app](https://usevia.app/).
+
 3. Нажмите *Authorise Device*, выберите клавиатуру во всплывающем окне и нажмите *Подключение*.
     ![](./authorise.png)
 

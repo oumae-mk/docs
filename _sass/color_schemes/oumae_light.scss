@@ -81,7 +81,7 @@ em.k {
   border-bottom: solid 2px #d0d0d0;
   // font-family: "SFMono-Regular", menlo, consolas, monospace;
   font-size: 0.85rem;
-  font-family: "Iosevka Custom Regular";
+  font-family: "Iosevka Custom Regular" !important;
 }
 
 code {
@@ -89,8 +89,12 @@ code {
   font-family: "Iosevka Custom Regular" !important;
 }
 
-li * img {
+li img {
   margin: 1.5rem 0;
+}
+
+img {
+  border-radius: 2px;
 }
 
 em.label {
