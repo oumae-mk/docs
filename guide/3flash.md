@@ -77,3 +77,8 @@ qmk_firmware/keyboards/<клавиатура>/keymap/<раскладка>
 
 После окончания загрузки прошивки повторите шаги со второй половинкой.
 
+
+## Интересные ссылки
+
+- Подробный гайд по [homerowmods](https://precondition.github.io/home-row-mods): что, как и зачем *(англ.)*
+- Раскладка [miryoku](https://github.com/manna-harbour/miryoku/tree/master/docs/reference): 36 клавиш, максимум функционала *(англ.)*
