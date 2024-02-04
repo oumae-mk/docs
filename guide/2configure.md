@@ -49,4 +49,4 @@ Keycodes в документации QMK: [https://docs.qmk.fm/#/keycodes](https
 {: .note-title .question }
 > Как активировать слой 3 на Corne в стандартной прошивке?
 >
-> Нажмите *FN1*{:.k} и *FN2*{:.k} одновремененно.
+> Нажмите *FN1*{:.k} и *FN2*{:.k} одновременно.
