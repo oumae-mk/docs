@@ -1,6 +1,6 @@
 ---
 title: QMK и фичи
-parent: Общие понятия
+parent: Глоссарий
 layout: default
 nav_order: 2
 ---
