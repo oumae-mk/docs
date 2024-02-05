@@ -25,7 +25,7 @@ export USER_GID=`id -g`; sudo --preserve-env=USER_GID sh -c 'echo "KERNEL==\"hid
 
 ### Клавиатура не определяется на [vial.rocks](https://vial.rocks/)
 
-По умолчанию я не прошиваю клавиатуры с Vial, только с Via. Для поддержки Vial необходима [перепрошивка]({% link guide/3flash.md %}).
+По умолчанию я не прошиваю клавиатуры с Vial, только с Via. Для поддержки Vial необходима [перепрошивка]({% link guide/4flash.md %}).
 
 # Моей проблемы нет выше
 
