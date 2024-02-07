@@ -37,7 +37,7 @@ parent: Руководство
 {: .warning }
 > Я не консультирую по вопросам касательно использования Vial.
 
-Хотите прошить [Vial](https://get.vial.today/)? Если раскладки с поддержкой Via можно найти в официальном репо QMK, за Vial нужно идти в их [форк](https://github.com/vial-kb/vial-qmk/):
+Если раскладки с поддержкой Via можно найти в официальном репо QMK, за [Vial](https://get.vial.today/) нужно идти в их [форк](https://github.com/vial-kb/vial-qmk/):
 
 ```
 $ git clone https://github.com/vial-kb/vial-qmk.git
