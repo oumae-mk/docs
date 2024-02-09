@@ -1,11 +1,11 @@
 ---
-title: Детали
-parent: Глоссарий
+title: Состав клавиатуры
+parent: Механика 101
 layout: default
 nav_order: 2
 ---
 
-# Детали
+# Состав клавиатуры
 
 1. TOC
 {:toc}

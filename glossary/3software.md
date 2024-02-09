@@ -1,6 +1,6 @@
 ---
 title: QMK и фичи
-parent: Глоссарий
+parent: Механика 101
 layout: default
 nav_order: 2
 ---
