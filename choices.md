@@ -81,8 +81,9 @@ nav_order: 3
 ### Corne MX
 
 - EPBT x GOK Kuro/Shiro (черный/светлый) *GB*
-- KJ-Modify BOB 196pcs (черный/угольный)
+- ?? BOB 196pcs (черный/угольный)
 
 ### Lily58 MX
 
 - EPBT x GOK Kuro/Shiro (черный/светлый) *GB*
+- JKDK WOB Hiragana (белый/красный/черный)
