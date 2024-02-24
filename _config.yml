@@ -5,10 +5,12 @@ theme: just-the-docs
 url: https://oumae-mk.github.io/docs
 
 nav_external_links:
-  - title: "Oumae в Telegram"
+  - title: "Мой канал в tg"
     url: https://t.me/+bHgaMW-ajFhkY2Fi
+  - title: "Связаться со мной в tg"
+    url: https://t.me/ask_oumae
   - title: "Oumae на Avito"
-    url: https://www.avito.ru/user/2ab3781d94e514c40265fe39571c9f7d/profile
+    url: https://www.avito.ru/sankt-peterburg/tovary_dlya_kompyutera/lily58_pro_mx_hotsvap_mehanicheskaya_klaviatura_3058102403
 
 # aux_links:
 #   "Oumae в Telegram":
