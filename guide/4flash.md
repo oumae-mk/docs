@@ -88,7 +88,7 @@ $ qmk flash -kb -crkbd -km vial
  Вы прошиваете Via на Lily58:
 
 ```
-$ qmk flash -kb -Lily58 -km via
+$ qmk flash -kb -lily58 -km via
 ```
 
 ## Вдохновение
