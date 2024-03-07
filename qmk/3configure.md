@@ -2,7 +2,7 @@
 layout: default
 title: Настройка
 nav_order: 2
-parent: Руководство
+parent: QMK
 ---
 
 # Настройка

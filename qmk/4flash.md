@@ -2,7 +2,7 @@
 layout: default
 title: Перепрошивка
 nav_order: 2
-parent: Руководство
+parent: QMK
 ---
 
 # Перепрошивка

@@ -2,7 +2,7 @@
 layout: default
 title: Подключение
 nav_order: 2
-parent: Руководство
+parent: QMK
 ---
 
 # Подключение

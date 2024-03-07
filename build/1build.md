@@ -2,7 +2,7 @@
 layout: default
 title: Сборка
 nav_order: 2
-parent: Руководство
+parent: Сборка
 ---
 
 # Сборка
