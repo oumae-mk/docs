@@ -9,12 +9,6 @@ parent: ZMK
 1. TOC
 {:toc}
 
-### Репозитории
-
-- [TOTEM](https://github.com/tsbohc/zmk-config-totem)
-- [Corne](https://github.com/tsbohc/zmk-config-corne) (MX/Choc)
-- [Lily58pro](https://github.com/tsbohc/zmk-config-lily58) (MX/Choc)
-
 {: .warning}
 > Этот раздел содержит процесс, полагающийся на GUI (почти все происходит в браузере, никакой коммандной строки). Если Вы предпочитаете работать с исходниками, то я рекомендую настроить build env по [докам ZMK](https://zmk.dev/docs/development/setup).
 
@@ -23,7 +17,10 @@ parent: ZMK
 Один из способов работы с ZMK -- через Github Actions. Это позволяет компилировать прошивку на Github, без необходимости установки какого-либо ПО.
 
 1. Создайте аккаунт на [github.com](https://github.com).
-2. Форкните мой репо для Вашей клавиатуры. Ссылку можно найти выше.
+2. Форкните мой репо для Вашей клавиатуры:
+    - [Corne](https://github.com/tsbohc/zmk-config-corne) (MX/Choc)
+    - [Lily58pro](https://github.com/tsbohc/zmk-config-lily58) (MX/Choc)
+    - [TOTEM](https://github.com/tsbohc/zmk-config-totem)
 
 {: .note-title .question }
 > Что такое форк? Как его форкнуть?
