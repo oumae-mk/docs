@@ -11,8 +11,9 @@ parent: ZMK
 
 ### Репозитории
 
-- TOTEM: [моя раскладка](https://github.com/tsbohc/zmk-config-totem).
-- Corne (MX/Choc): [моя раскладка](https://github.com/tsbohc/zmk-config-corne).
+- [TOTEM](https://github.com/tsbohc/zmk-config-totem)
+- [Corne](https://github.com/tsbohc/zmk-config-corne) (MX/Choc)
+- [Lily58pro](https://github.com/tsbohc/zmk-config-lily58) (MX/Choc)
 
 {: .warning}
 > Этот раздел содержит процесс, полагающийся на GUI (почти все происходит в браузере, никакой коммандной строки). Если Вы предпочитаете работать с исходниками, то я рекомендую настроить build env по [докам ZMK](https://zmk.dev/docs/development/setup).
