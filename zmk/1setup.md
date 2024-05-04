@@ -21,11 +21,7 @@ parent: ZMK
     - [Corne](https://github.com/tsbohc/zmk-config-corne) (MX/Choc)
     - [Lily58pro](https://github.com/tsbohc/zmk-config-lily58) (MX/Choc)
     - [TOTEM](https://github.com/tsbohc/zmk-config-totem)
-
-{: .note-title .question }
-> Что такое форк? Как его форкнуть?
->
-> Форк - копия репозитория, в которую Вы можете вносить изменения. Она сохранится в Вашем профиле на Github. Сделать форк можно, нажав на соответствующую кнопку справа вверху страницы репозитория.
+3. Убедитесь, что в настройках репо, в разделе *Actions* -- *General*, активно *Allow all actions and reusable workflows*.
 
 ## Keymap Editor
 
