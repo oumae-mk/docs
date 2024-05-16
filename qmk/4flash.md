@@ -32,6 +32,13 @@ parent: QMK
     $ qmk setup
     ````
 
+Протестируйте build env и по необходимости решите проблемы:
+
+```
+$ qmk doctor
+$ qmk compile -kb crkbd -km via
+```
+
 ## Vial
 
 {: .warning }
@@ -46,23 +53,6 @@ $ qmk setup
 ```
 
 Чтобы перейти обратно на офф. репо, просто `$ qmk setup` в нем.
-
-## Кастомизация
-
-Протестируйте build env и по необходимости решите проблемы:
-
-```
-$ qmk doctor
-$ qmk compile -kb crkbd -km via
-```
-
-Если все хорошо, то можно вносить изменения в прошивку. Релевантные пути:
-
-```
-qmk_firmware/keyboards/<клавиатура>
-qmk_firmware/keyboards/<клавиатура>/keymap/<раскладка>
-```
-
 
 ## Прошивка
 
@@ -93,7 +83,3 @@ $ qmk flash -kb -crkbd -km vial
 ```
 $ qmk flash -kb -lily58 -km via
 ```
-
-## Вдохновение
-
-См. [раздел]({% link links.md %}) с ссылками на интересные проекты.

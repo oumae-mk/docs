@@ -50,6 +50,17 @@ Keycodes в документации QMK: [https://docs.qmk.fm/#/keycodes](https
 ## FAQ
 
 {: .note-title .question }
+> На Linux выдает Via выдает ошибку.
+>
+> Дело в udev. Чтобы дать текущему пользователю доступ ко всем hidraw устройствам, выполните:
+>
+> ```
+> export USER_GID=`id -g`; sudo --preserve-env=USER_GID sh -c 'echo "KERNEL==\"hidraw*\", SUBSYSTEM==\"hidraw\", MODE=\"0660\", GROUP=\"$USER_GID\", TAG+=\"uaccess\", TAG+=\"udev-acl\"" > /etc/udev/rules.d/92-viia.rules && udevadm control --reload && udevadm trigger'
+> ```
+>
+> Источник: [https://get.vial.today/manual/linux-udev.html](https://get.vial.today/manual/linux-udev.html#generalized-via-udev-rule).
+
+{: .note-title .question }
 > Как активировать слой 3 на Corne в стандартной прошивке?
 >
 > Нажмите *FN1*{:.k} и *FN2*{:.k} одновременно.
